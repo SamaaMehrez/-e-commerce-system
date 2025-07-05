@@ -43,7 +43,7 @@ public class Cart {
 
     public double getShippingFees() {
         if(getTotalWeight() == 0) return 0;
-        return (getTotalWeight() / 1000) * 30;
+        return getTotalWeight() * 30;
 
     }
 
